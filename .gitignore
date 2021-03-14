@@ -1,0 +1,43 @@
+# FLIP:
+!.gitignore
+!/figures/*
+*.pdf
+OLD/
+
+# LATEX
+*.aux
+*.glo
+*.idx
+*.log
+*.toc
+*.ist
+*.acn
+*.acr
+*.alg
+*.bbl
+*.blg
+*.tmp
+*.dvi
+*.glg
+*.gls
+*.ilg
+*.ind
+*.fdb_latexmk
+*.fls
+*.lof
+*.log
+*.lot
+*.maf
+*.mtc
+*.mtc1
+*.out
+*.synctex.gz
+*.toc
+*.xdv
+
+# Sublime
+*.sublime-project
+*.sublime-workspace
+
+# Mac finder files and hidden folders
+.DS_Store
