@@ -1,5 +1,5 @@
 # flip-paper-template 2021
-A LaTeX paper template that I use for papers and notes.
+A LaTeX paper template that I use for papers and notes. [GitHub Location](https://github.com/fliptanedo/flip-paper-template-2021); replaces [older version](https://github.com/fliptanedo/flip-paper-template).
 
 By Flip Tanedo (flip.tanedo@ucr.edu)
 
@@ -9,7 +9,7 @@ Uses Jacques Distler's `utcaps.bst` and AAS TeX's `aas_macros.sty`, included in 
 
 For those, like me, are less competent with `git` and GitHub than we really aught to be.
 
-1. Go to repo's [page](https://github.com/fliptanedo/flip-paper-template) on GitHub.
+1. Go to repo's [page](https://github.com/fliptanedo/flip-paper-template-2021) on GitHub.
 
 2. Click on the green `Code` button just to the top-right of the list of files. 
 
@@ -38,14 +38,14 @@ For those, like me, are less competent with `git` and GitHub than we really augh
 
    2. Do **not** initialize with a `README.md` file. 
 
-   3. Follow the steps to push an existing repository.  **Except**: there's one problem. Your copy of `flip-paper-tempalte` (now renamed) is *already* connected to the paper template GitHub repository. This should be:
+   3. Follow the steps to push an existing repository.  **Except**: there's one problem. Your copy of `flip-paper-template` (now renamed) is *already* connected to the paper template GitHub repository. This should be:
 
       ```
       git remote set-url origin [https://github.com/....git]
       git push -u origin master
       ```
 
-      Where the first line is changed from `git remote add origin`
+      Where the first line is changed from `git remote add origin`. Note that `master` [may be renamed](https://www.git-tower.com/learn/git/faq/git-rename-master-to-main/) to `main`.
 
    4. [Alternately](https://stackoverflow.com/questions/17546246/git-cloning-repository-into-new-repository) (in place of previous step), you can remove the obsolete remote and then add the new remote:
 
